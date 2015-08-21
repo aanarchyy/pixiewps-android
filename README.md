@@ -4,6 +4,8 @@ Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploitin
 
 # HOW TO COMPILE
 
+You must have a properly set up android-ndk cross-compile environment.
+
 Unzip, then in the created directory run:
 
 ```

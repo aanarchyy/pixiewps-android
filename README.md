@@ -11,7 +11,6 @@ Unzip, then in the created directory run:
 ```
     ndk-build NDK_PROJECT_PATH=`pwd` APP_BUILD_SCRIPT=`pwd`/Android.mk
 ```
-Copy generated binary in obj/local/armeabi and libcrypto.a in root folder to device.
 
 # USAGE
 

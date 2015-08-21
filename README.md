@@ -2,22 +2,12 @@
 
 Pixiewps is a tool written in C used to bruteforce offline the WPS pin exploiting the low or non-existing entropy of some APs (pixie dust attack). It is meant for educational purposes only. All credits for the research go to Dominique Bongard.
 
-# DEPENDENCIES
+# HOW TO COMPILE
 
-Pixiewps requires libssl. To install it:
-
-```
-    sudo apt-get install libssl-dev
-```
-
-# INSTALLATION
-
-Pixiewps can be built and installed by running:
+Unzip, then in the created directory run:
 
 ```
-    ~/pixiewps$ cd src
-    ~/pixiewps/src$ make
-    ~/pixiewps/src$ sudo make install
+    ndk-build NDK_PROJECT_PATH=`pwd` APP_BUILD_SCRIPT=`pwd`/Android.mk
 ```
 
 # USAGE
